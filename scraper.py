@@ -37,15 +37,15 @@ def getXPMReport(reportID,WorkFlowMax,session, report_dict, reportname):
     }
     start = time.time()
     print("requesting "+reportname)
-    response = session.post('https://app.practicemanager.xero.com/ajaxpro/WorkFlowMax.Web.UI.ReportExport,WorkflowMax.App.ashx', cookies=cookies, headers=headers, data=data)
-    response = session.get('https://app.practicemanager.xero.com/reports/' + eval(response.text.split(';')[0])['value']['url'], cookies=cookies).text
+    response = session.post('https://app.practicemanager.xero.com/ajaxpro/WorkFlowMax.Web.UI.ReportExport,WorkflowMax.App.ashx', cookies=cookies, headers=headers, data=data, verify=False)
+    response = session.get('https://app.practicemanager.xero.com/reports/' + eval(response.text.split(';')[0])['value']['url'], cookies=cookies, verify=False).text
     request_time = time.time() - start
     print(reportname + " request completed in {0:.0f}s".format(request_time))
     report_dict[reportname] = response[3:]
 
 def checkAuthenticationCookie(WorkFlowMax, session):
     cookies = {'WorkFlowMax': WorkFlowMax}
-    response = session.get('https://app.practicemanager.xero.com/my/overview.aspx', cookies=cookies, verify=False)
+    response = session.push('https://app.practicemanager.xero.com/my/overview.aspx', cookies=cookies)
     return response.status_code
 
 
