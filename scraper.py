@@ -45,7 +45,7 @@ def getXPMReport(reportID,WorkFlowMax,session, report_dict, reportname):
 
 def checkAuthenticationCookie(WorkFlowMax, session):
     cookies = {'WorkFlowMax': WorkFlowMax}
-    response = session.post('https://app.practicemanager.xero.com/my/overview.aspx', cookies=cookies)
+    response = session.get('https://app.practicemanager.xero.com/my/overview.aspx', cookies=cookies, verify=False)
     return response.status_code
 
 
