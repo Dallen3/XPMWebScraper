@@ -3,7 +3,9 @@ import configparser
 import time
 import datetime
 from selenium.webdriver import Firefox
+from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.firefox.options import Options
+from webdriver_manager.firefox import GeckoDriverManager
 import sys
 import scraper
 import requests
@@ -18,8 +20,8 @@ if __name__ == '__main__':
     xeroAuthSeed = config.get("scrapervars", "xeroAuthSeed")
     driver_path = config.get("scrapervars", "driverPath")
     options = Options()
-    options.headless = False
-    driver = Firefox(options=options, executable_path=driver_path)
+    options.headless = True
+    driver = Firefox(service=Service(GeckoDriverManager().install()), options=options)
     workflowmax_cookie = scraper.get_workflowmax_auth_cookie(xeroUserName, xeroPassword, xeroAuthSeed, driver)
     session = requests.session()
     while True:
