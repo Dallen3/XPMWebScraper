@@ -23,27 +23,17 @@ if __name__ == '__main__':
     options.headless = True
     driver = Firefox(service=Service(GeckoDriverManager().install()), options=options)
     workflowmax_cookie = scraper.get_workflowmax_auth_cookie(xeroUserName, xeroPassword, xeroAuthSeed, driver)
-    session = requests.session()
-    headers = requests.utils.default_headers()
-    headers['User-Agent'] = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0'
-    session.verify=False
-    session.headers = headers
     while True:
         try:
-            if scraper.checkAuthenticationCookie(workflowmax_cookie, session) == 200:
+            if scraper.checkAuthenticationCookie(workflowmax_cookie) == 200:
                 start = time.time()
-                main(workflowmax_cookie, session)
+                main(workflowmax_cookie)
                 print("----Completed in {0:.0f}s".format(time.time() - start) + "----")
                 print(datetime.datetime.now())
                 print("Sleep: " + sys.argv[2] + "m")
                 time.sleep(int(sys.argv[2]) * 60)
             else:
                 driver.close()
-                session.close()
-                session = requests.session()
-                headers = requests.utils.default_headers()
-                headers['User-Agent'] = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0'
-                session.headers = headers
                 driver = Firefox(options=options, executable_path=driver_path)
                 workflowmax_cookie = scraper.get_workflowmax_auth_cookie(xeroUserName, xeroPassword, xeroAuthSeed, driver)
         except Exception as e:

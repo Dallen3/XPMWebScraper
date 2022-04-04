@@ -4,8 +4,7 @@ import scraper
 import scraperdb
 import sys
 
-
-def main(xpm_auth_token, session):
+def main(xpm_auth_token):
         config = configparser.ConfigParser()
         config.read("config.ini")
         server = config.get("scrapervars", "server")
@@ -18,7 +17,7 @@ def main(xpm_auth_token, session):
         report_list = manager.dict()
         processes = list()
         for (reportname, reportnumber) in reports.items("xpmreports"):
-            p = multiprocessing.Process(target=scraper.getXPMReport, args=(reportnumber, xpm_auth_token, session, report_list, reportname))
+            p = multiprocessing.Process(target=scraper.getXPMReport, args=(reportnumber, xpm_auth_token, report_list, reportname))
             processes.append(p)
             p.start()
         for proc in processes:
@@ -27,6 +26,7 @@ def main(xpm_auth_token, session):
             connection = scraperdb.getdbconnection(server, dbname, dbusr, dbpw)
             try:
                 scraperdb.updateTableFromCSV(connection, key, report_list[key])
+                report_list[key] = []
             except Exception as e:
                 print(e)
                 connection.close()
