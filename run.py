@@ -8,7 +8,7 @@ from selenium.webdriver.firefox.options import Options
 from webdriver_manager.firefox import GeckoDriverManager
 import sys
 import scraper
-import requests
+import requests.utils
 
 
 if __name__ == '__main__':
@@ -24,6 +24,9 @@ if __name__ == '__main__':
     driver = Firefox(service=Service(GeckoDriverManager().install()), options=options)
     workflowmax_cookie = scraper.get_workflowmax_auth_cookie(xeroUserName, xeroPassword, xeroAuthSeed, driver)
     session = requests.session()
+    headers = requests.utils.default_headers()
+    headers['User-Agent'] = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0'
+    session.headers = headers
     while True:
         try:
             if scraper.checkAuthenticationCookie(workflowmax_cookie, session) == 200:
@@ -37,6 +40,9 @@ if __name__ == '__main__':
                 driver.close()
                 session.close()
                 session = requests.session()
+                headers = requests.utils.default_headers()
+                headers['User-Agent'] = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0'
+                session.headers = headers
                 driver = Firefox(options=options, executable_path=driver_path)
                 workflowmax_cookie = scraper.get_workflowmax_auth_cookie(xeroUserName, xeroPassword, xeroAuthSeed, driver)
         except Exception as e:

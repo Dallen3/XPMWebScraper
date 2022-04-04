@@ -1,5 +1,6 @@
 import time
 import pyotp
+import requests
 
 def authenticateXero(xeroUserName, xeroPassword, totp, driver):
     driver.get("http://login.xero.com/identify/user/login")
@@ -37,8 +38,8 @@ def getXPMReport(reportID,WorkFlowMax,session, report_dict, reportname):
     }
     start = time.time()
     print("requesting "+reportname)
-    response = session.post('https://app.practicemanager.xero.com/ajaxpro/WorkFlowMax.Web.UI.ReportExport,WorkflowMax.App.ashx', cookies=cookies, headers=headers, data=data, verify=False)
-    response = session.get('https://app.practicemanager.xero.com/reports/' + eval(response.text.split(';')[0])['value']['url'], cookies=cookies, verify=False).text
+    response = session.post('https://app.practicemanager.xero.com/ajaxpro/WorkFlowMax.Web.UI.ReportExport,WorkflowMax.App.ashx', cookies=cookies, headers=headers, data=data)
+    response = session.get('https://app.practicemanager.xero.com/reports/' + eval(response.text.split(';')[0])['value']['url'], cookies=cookies).text
     request_time = time.time() - start
     print(reportname + " request completed in {0:.0f}s".format(request_time))
     report_dict[reportname] = response[3:]
