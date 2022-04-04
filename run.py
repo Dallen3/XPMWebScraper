@@ -33,6 +33,8 @@ if __name__ == '__main__':
                 time.sleep(int(sys.argv[2]) * 60)
             else:
                 driver.close()
+                session.close()
+                session = requests.session()
                 driver = Firefox(options=options, executable_path=driver_path)
                 workflowmax_cookie = scraper.get_workflowmax_auth_cookie(xeroUserName, xeroPassword, xeroAuthSeed, driver)
         except Exception as e:

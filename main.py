@@ -1,9 +1,5 @@
 import configparser
 import multiprocessing
-from selenium.webdriver import Firefox
-from selenium.webdriver.firefox.options import Options
-import requests
-import pyotp
 import scraper
 import scraperdb
 import sys
