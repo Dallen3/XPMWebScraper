@@ -38,8 +38,12 @@ def getXPMReport(reportID,WorkFlowMax,session, report_dict, reportname):
     }
     start = time.time()
     print("requesting "+reportname)
-    response = session.post('https://app.practicemanager.xero.com/ajaxpro/WorkFlowMax.Web.UI.ReportExport,WorkflowMax.App.ashx', cookies=cookies, headers=headers, data=data)
-    response = session.get('https://app.practicemanager.xero.com/reports/' + eval(response.text.split(';')[0])['value']['url'], cookies=cookies).text
+    proxies = {
+        "http": None,
+        "https": None,
+    }
+    response = session.post('https://app.practicemanager.xero.com/ajaxpro/WorkFlowMax.Web.UI.ReportExport,WorkflowMax.App.ashx', cookies=cookies, headers=headers, data=data, proxies=proxies)
+    response = session.get('https://app.practicemanager.xero.com/reports/' + eval(response.text.split(';')[0])['value']['url'], cookies=cookies, proxies=proxies).text
     request_time = time.time() - start
     print(reportname + " request completed in {0:.0f}s".format(request_time))
     report_dict[reportname] = response[3:]
