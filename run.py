@@ -26,6 +26,7 @@ if __name__ == '__main__':
     session = requests.session()
     headers = requests.utils.default_headers()
     headers['User-Agent'] = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0'
+    session.verify=False
     session.headers = headers
     while True:
         try:
