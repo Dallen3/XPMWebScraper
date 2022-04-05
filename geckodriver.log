@@ -7616,3 +7616,391 @@ JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeE
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
 JavaScript warning: https://app.practicemanager.xero.com/PZ4KIcqrBT/2-4qfM/nWaI/7ac9hwVk/QXsUMCIrCgc/axts/cSgUB1E, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1649128485782	geckodriver	INFO	Listening on 127.0.0.1:53050
+1649128488835	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "53051" "-no-remote" "-profile" "C:\\Users\\Danie\\AppData\\Local\\Temp\\rust_mozprofileMapDdZ"
+*** You are running in headless mode.
+1649128489398	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Danie\\AppData\\Local\\Temp\\rust_mozprofileMapDdZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53051/devtools/browser/b2e1f629-b84a-458a-bfef-2c22e993aa65
+1649128490491	Marionette	INFO	Listening on port 53057
+1649128490886	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://practicemanager.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://practicemanager.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://app.practicemanager.xero.com/GI3RBi4D2TE8gLaJyK8gG5-w/b3ENwhwVmi/eXZvAQ/PgUEP/GY6KF0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1649128673233	geckodriver	INFO	Listening on 127.0.0.1:53335
+1649128676288	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "53336" "-no-remote" "-profile" "C:\\Users\\Danie\\AppData\\Local\\Temp\\rust_mozprofileNDCJ6U"
+*** You are running in headless mode.
+1649128676568	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Danie\\AppData\\Local\\Temp\\rust_mozprofileNDCJ6U\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53336/devtools/browser/2275093c-b490-46e8-88f1-e5ef5768df46
+1649128677299	Marionette	INFO	Listening on port 53342
+1649128677807	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://practicemanager.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://practicemanager.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://app.practicemanager.xero.com/GI3RBi4D2TE8gLaJyK8gG5-w/b3ENwhwVmi/eXZvAQ/PgUEP/GY6KF0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1649128883351	geckodriver	INFO	Listening on 127.0.0.1:54306
+1649128886392	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "54307" "-no-remote" "-profile" "C:\\Users\\Danie\\AppData\\Local\\Temp\\rust_mozprofilezSIjrb"
+*** You are running in headless mode.
+1649128886570	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Danie\\AppData\\Local\\Temp\\rust_mozprofilezSIjrb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54307/devtools/browser/0d495aa6-29bb-4cca-b31a-5a4ff47c6491
+1649128887328	Marionette	INFO	Listening on port 54314
+1649128887417	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://login.xero.com/P9xjjUgAxyfTOihDOAuHy4kx/Lu1k0ffzb9Et/QkJWAQ/RR86JFhU/QAQB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1649128896171	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://practicemanager.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://practicemanager.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://app.practicemanager.xero.com/GI3RBi4D2TE8gLaJyK8gG5-w/b3ENwhwVmi/eXZvAQ/PgUEP/GY6KF0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1649128926094	geckodriver	INFO	Listening on 127.0.0.1:54425
+1649128929157	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "54426" "-no-remote" "-profile" "C:\\Users\\Danie\\AppData\\Local\\Temp\\rust_mozprofile6aScP2"
+*** You are running in headless mode.
+1649128929362	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Danie\\AppData\\Local\\Temp\\rust_mozprofile6aScP2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54426/devtools/browser/62a63b91-8a14-40df-a39b-5056c23617e1
+1649128930032	Marionette	INFO	Listening on port 54432
+1649128930188	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://practicemanager.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://practicemanager.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://app.practicemanager.xero.com/GI3RBi4D2TE8gLaJyK8gG5-w/b3ENwhwVmi/eXZvAQ/PgUEP/GY6KF0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1649128960530	geckodriver	INFO	Listening on 127.0.0.1:54534
+1649128963574	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "54535" "-no-remote" "-profile" "C:\\Users\\Danie\\AppData\\Local\\Temp\\rust_mozprofileff1AHz"
+*** You are running in headless mode.
+1649128963747	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Danie\\AppData\\Local\\Temp\\rust_mozprofileff1AHz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54535/devtools/browser/8c9bbd48-8b3e-4309-8cfc-a755d53e7e14
+1649128964493	Marionette	INFO	Listening on port 54542
+1649128964599	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://practicemanager.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://practicemanager.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://app.practicemanager.xero.com/GI3RBi4D2TE8gLaJyK8gG5-w/b3ENwhwVmi/eXZvAQ/PgUEP/GY6KF0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1649129081836	geckodriver	INFO	Listening on 127.0.0.1:54742
+1649129084874	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "54743" "-no-remote" "-profile" "C:\\Users\\Danie\\AppData\\Local\\Temp\\rust_mozprofile1xj49u"
+*** You are running in headless mode.
+1649129085052	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Danie\\AppData\\Local\\Temp\\rust_mozprofile1xj49u\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54743/devtools/browser/6d071b66-ace9-482d-8938-6c86478d1489
+1649129085726	Marionette	INFO	Listening on port 54755
+1649129085888	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://practicemanager.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://practicemanager.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://app.practicemanager.xero.com/GI3RBi4D2TE8gLaJyK8gG5-w/b3ENwhwVmi/eXZvAQ/PgUEP/GY6KF0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1649129195860	geckodriver	INFO	Listening on 127.0.0.1:54925
+1649129198908	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "54926" "-no-remote" "-profile" "C:\\Users\\Danie\\AppData\\Local\\Temp\\rust_mozprofile10rDML"
+*** You are running in headless mode.
+1649129199084	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Danie\\AppData\\Local\\Temp\\rust_mozprofile10rDML\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54926/devtools/browser/0eb36594-b693-4a3e-b410-b07545a5cd94
+1649129199800	Marionette	INFO	Listening on port 54933
+1649129199939	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649129203586	Marionette	INFO	Stopped listening on port 54933
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1649129204073	geckodriver	INFO	Listening on 127.0.0.1:54980
+1649129207134	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "54981" "-no-remote" "-profile" "C:\\Users\\Danie\\AppData\\Local\\Temp\\rust_mozprofilecsftKd"
+*** You are running in headless mode.
+1649129207359	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Danie\\AppData\\Local\\Temp\\rust_mozprofilecsftKd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54981/devtools/browser/e2811a9e-ccdc-42ed-8a68-06a1593c4ab3
+1649129208027	Marionette	INFO	Listening on port 54988
+1649129208210	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1649129236481	geckodriver	INFO	Listening on 127.0.0.1:55074
+1649129239523	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "55075" "-no-remote" "-profile" "C:\\Users\\Danie\\AppData\\Local\\Temp\\rust_mozprofileXovkte"
+*** You are running in headless mode.
+1649129239698	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Danie\\AppData\\Local\\Temp\\rust_mozprofileXovkte\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55075/devtools/browser/7236f7dc-bab5-41fe-a957-7a563190cbbd
+1649129240390	Marionette	INFO	Listening on port 55081
+1649129240542	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://practicemanager.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://practicemanager.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://app.practicemanager.xero.com/GI3RBi4D2TE8gLaJyK8gG5-w/b3ENwhwVmi/eXZvAQ/PgUEP/GY6KF0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1649129267449	Marionette	INFO	Stopped listening on port 55081
+1649129267971	geckodriver	INFO	Listening on 127.0.0.1:55183
+1649129289111	geckodriver	INFO	Listening on 127.0.0.1:55201
+1649129292139	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "55202" "-no-remote" "-profile" "C:\\Users\\Danie\\AppData\\Local\\Temp\\rust_mozprofilepv2ksw"
+*** You are running in headless mode.
+1649129292315	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Danie\\AppData\\Local\\Temp\\rust_mozprofilepv2ksw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55202/devtools/browser/539c6c5e-d2cc-4228-bafa-dce74106919b
+1649129292994	Marionette	INFO	Listening on port 55211
+1649129293168	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://edge.xero.com/platform/postoffice/prod/11.2.5/postoffice.js, line 2: TypeError: t is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://practicemanager.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://practicemanager.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://app.practicemanager.xero.com/GI3RBi4D2TE8gLaJyK8gG5-w/b3ENwhwVmi/eXZvAQ/PgUEP/GY6KF0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1649129320182	Marionette	INFO	Stopped listening on port 55211
+1649129320703	geckodriver	INFO	Listening on 127.0.0.1:55313
+1649129323729	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "55314" "-no-remote" "-profile" "C:\\Users\\Danie\\AppData\\Local\\Temp\\rust_mozprofiledmFzUg"
+*** You are running in headless mode.
+1649129323916	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Danie\\AppData\\Local\\Temp\\rust_mozprofiledmFzUg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55314/devtools/browser/a3cdb3dc-ff31-41ff-b54e-badd46273fcf
+1649129324578	Marionette	INFO	Listening on port 55321
+1649129428116	geckodriver	INFO	Listening on 127.0.0.1:55417
+1649129431184	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "55418" "-no-remote" "-profile" "C:\\Users\\Danie\\AppData\\Local\\Temp\\rust_mozprofileN628Ls"
+*** You are running in headless mode.
+1649129431361	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Danie\\AppData\\Local\\Temp\\rust_mozprofileN628Ls\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55418/devtools/browser/a597a0ae-4100-4bd0-a149-d1a88d7b0656
+1649129432043	Marionette	INFO	Listening on port 55425
+1649129432208	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://login.xero.com/P9xjjUgAxyfTOihDOAuHy4kx/Lu1k0ffzb9Et/QkJWAQ/RR86JFhU/QAQB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://practicemanager.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://practicemanager.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://app.practicemanager.xero.com/GI3RBi4D2TE8gLaJyK8gG5-w/b3ENwhwVmi/eXZvAQ/PgUEP/GY6KF0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1649129577362	geckodriver	INFO	Listening on 127.0.0.1:55610
+1649129580395	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "55611" "-no-remote" "-profile" "C:\\Users\\Danie\\AppData\\Local\\Temp\\rust_mozprofileYROcYR"
+*** You are running in headless mode.
+1649129580573	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Danie\\AppData\\Local\\Temp\\rust_mozprofileYROcYR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55611/devtools/browser/2170260a-e52c-43be-97d9-a183fcc1a356
+1649129581234	Marionette	INFO	Listening on port 55618
+1649129581429	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649129581892	Marionette	INFO	Stopped listening on port 55618
+1649129582559	geckodriver	INFO	Listening on 127.0.0.1:55649
+1649129585624	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "55650" "-no-remote" "-profile" "C:\\Users\\Danie\\AppData\\Local\\Temp\\rust_mozprofilepb6JTN"
+*** You are running in headless mode.
+1649129585798	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Danie\\AppData\\Local\\Temp\\rust_mozprofilepb6JTN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55650/devtools/browser/f403d7ea-f4df-46e1-95cd-4ad706efc9d6
+1649129586462	Marionette	INFO	Listening on port 55656
+1649129586676	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://practicemanager.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://practicemanager.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://app.practicemanager.xero.com/GI3RBi4D2TE8gLaJyK8gG5-w/b3ENwhwVmi/eXZvAQ/PgUEP/GY6KF0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1649129656122	geckodriver	INFO	Listening on 127.0.0.1:55814
+1649129659156	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "55815" "-no-remote" "-profile" "C:\\Users\\Danie\\AppData\\Local\\Temp\\rust_mozprofile1LIEQX"
+*** You are running in headless mode.
+1649129659336	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Danie\\AppData\\Local\\Temp\\rust_mozprofile1LIEQX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55815/devtools/browser/2e1f5b4a-67ac-40b9-90bf-23803dbdd6be
+1649129660008	Marionette	INFO	Listening on port 55824
+1649129660178	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649129661088	Marionette	INFO	Stopped listening on port 55824
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+1649129661794	geckodriver	INFO	Listening on 127.0.0.1:55868
+1649129664890	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "55869" "-no-remote" "-profile" "C:\\Users\\Danie\\AppData\\Local\\Temp\\rust_mozprofile3kMFqb"
+*** You are running in headless mode.
+1649129665064	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Danie\\AppData\\Local\\Temp\\rust_mozprofile3kMFqb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55869/devtools/browser/590a9895-4e46-4fcd-8bb6-19b52d66f317
+1649129665734	Marionette	INFO	Listening on port 55877
+1649129665906	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://practicemanager.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://practicemanager.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.xero.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://app.practicemanager.xero.com/GI3RBi4D2TE8gLaJyK8gG5-w/b3ENwhwVmi/eXZvAQ/PgUEP/GY6KF0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.

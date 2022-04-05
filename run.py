@@ -8,7 +8,6 @@ from selenium.webdriver.firefox.options import Options
 from webdriver_manager.firefox import GeckoDriverManager
 import sys
 import scraper
-import requests.utils
 
 
 if __name__ == '__main__':
@@ -33,8 +32,9 @@ if __name__ == '__main__':
                 print("Sleep: " + sys.argv[2] + "m")
                 time.sleep(int(sys.argv[2]) * 60)
             else:
+                print("Getting New Auth Token")
                 driver.close()
-                driver = Firefox(options=options, executable_path=driver_path)
+                driver = Firefox(service=Service(GeckoDriverManager().install()), options=options)
                 workflowmax_cookie = scraper.get_workflowmax_auth_cookie(xeroUserName, xeroPassword, xeroAuthSeed, driver)
         except Exception as e:
             print(e)
