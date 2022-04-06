@@ -33,7 +33,10 @@ if __name__ == '__main__':
                 time.sleep(int(sys.argv[2]) * 60)
             else:
                 print("Getting New Auth Token")
-                driver.close()
+                try:
+                    driver.close()
+                except Exception as e:
+                    print(e)
                 driver = Firefox(service=Service(GeckoDriverManager().install()), options=options)
                 workflowmax_cookie = scraper.get_workflowmax_auth_cookie(xeroUserName, xeroPassword, xeroAuthSeed, driver)
         except Exception as e:
