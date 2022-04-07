@@ -33,6 +33,7 @@ if __name__ == '__main__':
                 time.sleep(int(sys.argv[2]) * 60)
             else:
                 print("Getting New Auth Token")
+                time.sleep(30)
                 try:
                     driver.close()
                 except Exception as e:
