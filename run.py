@@ -20,7 +20,8 @@ if __name__ == '__main__':
     driver_path = config.get("scrapervars", "driverPath")
     options = Options()
     options.headless = True
-    driver = Firefox(service=Service(GeckoDriverManager().install()), options=options)
+    driverService = Service(GeckoDriverManager().install())
+    driver = Firefox(service=driverService, options=options)
     workflowmax_cookie = scraper.get_workflowmax_auth_cookie(xeroUserName, xeroPassword, xeroAuthSeed, driver)
     while True:
         try:
@@ -38,7 +39,7 @@ if __name__ == '__main__':
                     driver.close()
                 except Exception as e:
                     print(e)
-                driver = Firefox(service=Service(GeckoDriverManager().install()), options=options)
+                driver = Firefox(service=driverService, options=options)
                 workflowmax_cookie = scraper.get_workflowmax_auth_cookie(xeroUserName, xeroPassword, xeroAuthSeed, driver)
         except Exception as e:
             print(e)
